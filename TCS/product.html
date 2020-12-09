@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/029b218742.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./dist/css/app.css" />
+        <title>Prodavnica slatkiša The Candy Shop</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="./index.html" class="header__logo-holder">
+                <img
+                    src="./images/header__logo.jpg"
+                    alt="TCS prodavnica"
+                    class="header__logo"
+                />
+            </a>
+            <nav class="header__navbar" id="menu">
+                <a href="./index.html" class="header__link">Naslovna</a>
+                <a href="./products.html" class="header__link active">Proizvodi</a>
+                <a href="./about.html" class="header__link">O nama</a>
+                <a href="./contact.html" class="header__link">Kontakt</a>
+                <button
+                    class="header__close-buton"
+                    data-target="#menu"
+                    data-toggle="toggle"
+                >
+                    <i class="fas fa-times fa-2x"></i>
+                </button>
+            </nav>
+            <button
+                class="header__menu-buton"
+                data-target="#menu"
+                data-toggle="toggle"
+            >
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </header>
+        <div class="page-wrapper">
+            <section class="product">
+                <div class="product__inner">
+                    <div class="product__image-wrapper">
+                        <div
+                            class="product__image lazyload"
+                            data-src="./images/products/product__pink__1.png"
+                        ></div>
+                    </div>
+                    <div class="product__desc-wrapper">
+                        <h2 class="product__name">
+                           Kiseli MIX
+                        </h2>
+                        <p class="product__desc">
+                            Kisssselooooo! Da li ima nešto slađe od uživanja u kiselim slatkišima?!
+                            Interesantno je da stvarno veliki broj ljudi shvata gumenjake samo kao kisele. Nikako drugačije! 
+                            Stavili smo baš dosta kiselih bombona u ovaj mix! ZAKISELJENJE U TOKU!
+                            
+                        
+                        </p>
+                        
+                        <ul class="product__list">
+                            <li class="product__list-item">700g kiselih gumenih bombona</li>
+                            <li class="product__list-item">300g slatkih gumenih bombona</li>
+                        </ul>
+                        <p class="product__desc">
+                            <b>Cena: 1580 RSD</b><br>
+                            <b>BESPLATNA DOSTAVA</b> 
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="intro">
+                <div class="intro__text-box">
+                    <h1 class="intro__title">
+                        Pogledajte nase ostale proizvode!
+                    </h1>
+                </div>
+            </section>
+            <section class="products">
+    
+                <div class="products__product-list">
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper red"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__pink__11.png"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Čokoladno Candy Shop pakovanje
+                                </h3>
+                                <p class="products__desc">
+                                    Najbolji čokoladni ukusi spakovani u jedno pakovanje. Ono po čemu smo prepoznatljivi - šareno, slatko, neodoljivo! U ovom pakovanju je 1 kg čokoladnog miksa. Cena: 2250 RSD
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper white"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__red__3.png"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Gumenjaci za devojčice
+                                </h3>
+                                <p class="products__desc">
+                                    Izabrali smo bombone koje naše male damice prvo uguraju u kesice kad aim velike damice mamice dozvole da same sipaju!
+                                    U ovom miksu dobijate 900 grama sledećih gumenih bombona: kupine, breskva srca, mede, jagodice, jagodini poljupci... Cena: 1600 RSD
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper red"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__red__2.png"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Gumenjaci za dečake
+                                </h3>
+                                <p class="products__desc">
+                                    Ovo je klasični mix bombona koje dečaci najčešće biraju na našim štandovima. U ovom miksu dobijate 900 grama sledećih gumenih bombona: ajkule, zube, gliste, mede, kornjače... Cena: 1600 RSD
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                   
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper white"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__pink__13.png"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                 <h3 class="products__title">
+                                    Paketić slatkiša od bele čokolade
+                                </h3>
+                                <p class="products__desc">
+                                    Belu čokoladu, molim vas, ovde ne vidite samo kao belu... Ima je i sa tiramisuom, rumom, kafom... Za sve one koji vole ukus bele čokolade, ovaj paketić je pravi izbor! Pakovanje sadrži 900 grama slatkiša. Cena: 2100 RSD
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            Powered by &nbsp;<b>TNS IT team</b>&nbsp; &copy;2020
+        </footer>
+
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"
+        ></script>
+        <script src="./dist/js/jquery.validate.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
+        <script src="./dist/js/app.js"></script>
+    </body>
+</html>
